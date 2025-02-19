@@ -27,3 +27,31 @@ console.log(--x);
 
 console.log("5" + 10);
 console.log("5" - 2);
+
+// 4.js number convert 
+
+// i.Number() function
+let str = "123";
+console.log(Number(str));
+
+// ii.parseInt() and parseFloat()
+console.log(parseInt("50px"));
+console.log(parseFloat("3.14"));
+
+// iii.toString()
+let num = 100;
+console.log(num.toString());
+
+
+// 5.number property and method
+// i.toFixed()
+let numb = 3.1416;
+console.log(numb.toFixed(1));
+
+
+// ii.toPrecision()
+console.log(numb.toPrecision(3));
+
+// 
+
+
