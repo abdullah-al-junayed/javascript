@@ -52,6 +52,25 @@ console.log(numb.toFixed(1));
 // ii.toPrecision()
 console.log(numb.toPrecision(3));
 
-// 
+// iii.isNan()
+console.log(isNaN('Hello'));
+console.log((123));
 
 
+//6.JAVASCRIPT NUMBER INFINITY AND -INFINITY
+console.log(10/0);
+console.log(-10/0);
+
+// 7.Math library
+// normal math function
+console.log(Math.round(6.7));
+console.log(Math.random());
+console.log(Math.floor(6.8));
+console.log(Math.ceil(6.1));
+console.log(Math.sqrt(16));
+console.log(Math.pow(2,4));
+
+// 8.number limitation
+// Number.Max_VALUE AND Number.Min_VALUE
+console.log(Number.MAX_VALUE);
+console.log(Number.MIN_VALUE);
